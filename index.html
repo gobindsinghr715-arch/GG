@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GG | JARVIS Remote</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#07111f;color:#e8faff;font-family:Arial,sans-serif;padding:22px}
+header{color:#36e5ff;font-size:25px;font-weight:bold}
+p{color:#9eb8ca}
+.card{background:#101f31;border:1px solid #21465b;border-radius:14px;padding:18px;margin:16px 0}
+button{background:#063b50;color:#55eaff;border:1px solid #24c9e8;padding:12px;border-radius:9px;margin:5px 0;width:100%;font-size:15px}
+.status{color:#70ffb0}
+</style>
+</head>
+<body>
+<header>GG // JARVIS</header>
+<p>REMOTE SUPPORT DASHBOARD</p>
+<div class="card">
+<h3>Connection Status</h3>
+<p class="status" id="status">Dashboard Online</p>
+<p>This website is not connected to a remote device yet.</p>
+</div>
+<div class="card">
+<h3>Remote Device</h3>
+<button onclick="alert('Remote device pairing requires an installed service and approval on that device.')">Pair Device</button>
+<button onclick="alert('Screen sharing requires an approved remote-support service.')">Screen Support</button>
+<button onclick="alert('Device status is available after a secure connection is established.')">Device Status</button>
+<button onclick="alert('Files require an explicit file selection or approved file-sharing service.')">File Support</button>
+</div>
+<p>Secure remote support • Device owner approval required</p>
+</body>
+</html>
